@@ -8,7 +8,7 @@
 body{
     width:100vw;
     height: 100vh;
-    background-image: linear-gradient(powderblue,sandybrown); //arka plana çift renk verilir.
+    background-image: linear-gradient( powderblue,sandybrown); //arka plana çift renk verilir.
     font-size: 1rem;
     
     
@@ -19,6 +19,8 @@ body{
     position: relative;
     top:10em;
     border: 3px solid navy;
+    background-color:;
+    opacity: 0.8;
     border-radius: 15px;
     width:50%;
     height:50%;
@@ -72,14 +74,6 @@ body{
     text-align: center;
     margin: auto;
     
-
-}
-@media(min-width 320px) and (max-width 480px){
-    #attempts{
-        font-size: 0.5em;
-        position: absolute;
-        top:10em;
-    }
 
 }
 
