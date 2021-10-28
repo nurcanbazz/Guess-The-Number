@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    width:100vw;
+    height: 100vh;
+    background-image: linear-gradient(powderblue,sandybrown); //arka plana çift renk verilir.
+    font-size: 1rem;
+    
+    
+}
+.container{
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top:10em;
+    border: 3px solid navy;
+    border-radius: 15px;
+    width:50%;
+    height:50%;
+    box-shadow: 8px 8px 8px gray;
+    
+    
+
+}
+#guess-number{
+    color:navy;
+    font-size: 2.2em;
+    margin-top: 5px;
+    
+}
+#output{
+    font-size: 1.8em;
+    color:rgb(233, 73, 10);
+    position: relative;
+    top:7em;
+}
+#input-number{
+    margin-top:2em;
+    margin-left: 3em;
+    max-width: 40%;
+    padding:0.5em;
+    border-radius: 5px;
+    border: none;
+    
+    
+}
+#btn{
+    background-image: linear-gradient(navy,gray); 
+    color:white;
+    border-radius: 15px;
+    padding: 0.7em;
+    margin-left: 5px;
+    
+
+
+}
+#btn:hover{
+    background:paleturquoise;
+    color:darkblue;
+      
+}
+
+
+#attempts{
+    font-size: 1.8em;
+    color:navy;
+    text-align: center;
+    margin: auto;
+    
+
+}
+
+
