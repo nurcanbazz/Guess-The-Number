@@ -22,7 +22,7 @@ body{
     background-color:;
     opacity: 0.8;
     border-radius: 15px;
-    width:70%;
+    width:50%;
     height:50%;
     box-shadow: 8px 8px 8px gray;
     
@@ -75,5 +75,13 @@ body{
     margin: auto;
     
 
+}
+@media screen (max-width 480px){
+    #attempts{
+        font-size:0.2em;
+    }
+    .container{
+        width:20%;
+    }
 }
 
